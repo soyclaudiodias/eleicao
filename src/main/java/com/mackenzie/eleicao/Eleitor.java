@@ -18,7 +18,7 @@ public class Eleitor {
         if (mtInIdade >= 18 && mtInIdade < 70){
             mtOutClassificacao = "Obrigatorio";
         }
-        else if (mtInIdade >= 0 && mtInIdade <= 15){
+        else if (mtInIdade > 0 && mtInIdade <= 15){
             mtOutClassificacao = "Nao permitido";
         }
         else if ((mtInIdade > 15 && mtInIdade <= 17) 
