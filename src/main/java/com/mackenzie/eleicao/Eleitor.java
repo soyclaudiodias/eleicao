@@ -15,7 +15,7 @@ public class Eleitor {
         
         String mtOutClassificacao;
               
-        if (mtInIdade >= 18 && mtInIdade < 70){
+        if (mtInIdade >= 0 && mtInIdade < 70){
             mtOutClassificacao = "Obrigatorio";
         }
         else if (mtInIdade >= 0 && mtInIdade <= 15){
